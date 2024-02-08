@@ -8,8 +8,9 @@
     <script type="module" src="./index.js"></script>
   </head>
   <body>
-    <form class="search-form" id="search-form">
+    <form class="js-search-form" id="search-form">
       <input
+        class="js-search-form-input"
         type="text"
         name="searchQuery"
         autocomplete="off"
@@ -17,5 +18,11 @@
       />
       <button type="submit">Search</button>
     </form>
+    <div class="js-gallery gallery-container">
+      <!-- Картки зображень -->
+    </div>
+    <button type="button" class="js-load-more load-more-hidden">
+      Load more
+    </button>
   </body>
 </html>
